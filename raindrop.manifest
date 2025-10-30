@@ -1,0 +1,22 @@
+application "retire-well" {
+
+  service "web-app" {
+    visibility = "public"
+  }
+
+  service "conversational-ai" {
+    visibility = "private"
+  }
+
+  service "activity-matcher" {
+    visibility = "private"
+  }
+
+  smartsql "user-db" {}
+
+  smartsql "activity-db" {}
+
+  smartmemory "conversation-memory" {}
+
+  smartbucket "activity-media" {}
+}
