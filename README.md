@@ -48,12 +48,12 @@ All Raindrop Smart Components are deployed and running, but services currently r
 
 This project **must** be run from the native Linux filesystem in WSL, not from `/mnt/c/`. The esbuild bundler has platform-specific binaries that conflict when using the Windows filesystem.
 
-**Current working location:** `/home/damelsh/retire-well/`
-
 ### Installation
 
 ```bash
-cd /home/damelsh/retire-well
+# Clone and install
+git clone https://github.com/melshiD/retire-well.git
+cd retire-well
 pnpm install
 ```
 
@@ -113,7 +113,7 @@ See [IMPLEMENTATION.md](./IMPLEMENTATION.md) for the detailed implementation roa
 
 - **Full PRD**: `planning/PRD-retirewell.md` - Complete product requirements and architecture
 - **Implementation Roadmap**: `IMPLEMENTATION.md` - Current status and next steps
-- **Session Artifacts**: `~/.raindrop/01k8nsy3r9e1fmqf02dnhn2nyt/` - Detailed architecture docs from Raindrop workflow
+- **Architecture Docs**: `docs/` - Detailed architecture and specifications
 
 ## Key Technologies
 
