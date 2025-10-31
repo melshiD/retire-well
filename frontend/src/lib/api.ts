@@ -1,5 +1,5 @@
 // API client for RetireWell backend
-const API_BASE = import.meta.env.VITE_API_URL || 'https://web-app-retire-well.liquidmetal.run';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://svc-01k8r81ngamv5ny0gerqayh5dh.01k8eade5c6qxmxhttgr2hn2nz.lmapp.run';
 
 export async function api<T>(endpoint: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${endpoint}`, {
