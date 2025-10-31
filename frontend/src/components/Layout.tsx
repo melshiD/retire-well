@@ -2,7 +2,7 @@ import { A, useNavigate } from '@solidjs/router';
 import type { Component, JSX } from 'solid-js';
 import { auth } from '../lib/api';
 
-const Layout: Component<{ children: JSX.Element }> = (props) => {
+const Layout: Component<{ children?: JSX.Element }> = (props) => {
   const navigate = useNavigate();
 
   const handleLogout = async () => {
