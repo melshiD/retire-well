@@ -2,6 +2,15 @@
 
 AI-powered weekly activity planner for retirees in Indianapolis, helping combat social isolation through personalized activity recommendations.
 
+## 🏆 Hackathon Project
+
+**Built for:** [Devpost AI Championship 2025](https://liquidmetal.devpost.com/)
+**Sponsor:** LiquidMetal.AI
+
+This project leverages the Raindrop framework to demonstrate how AI can address real-world challenges in social isolation among retirees. RetireWell combines conversational AI, personalized recommendation algorithms, and smart data infrastructure to create a comprehensive activity planning platform.
+
+**Key Innovation:** Multi-layered memory system that learns user preferences over time, providing increasingly personalized recommendations while maintaining contextual awareness across conversations.
+
 ## Current Status
 
 **Infrastructure: ✅ DEPLOYED**
