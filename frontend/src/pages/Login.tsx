@@ -2,6 +2,7 @@ import { createSignal } from 'solid-js';
 import type { Component } from 'solid-js';
 import { useNavigate } from '@solidjs/router';
 import { auth } from '../lib/api';
+import PublicNav from '../components/PublicNav';
 
 const Login: Component = () => {
   const navigate = useNavigate();
@@ -27,7 +28,9 @@ const Login: Component = () => {
   };
 
   return (
-    <div class="min-h-screen bg-gradient-to-br from-primary via-primary-hover to-cyan-600 flex items-center justify-center p-6">
+    <div class="min-h-screen bg-white">
+      <PublicNav />
+      <div class="min-h-screen bg-gradient-to-br from-primary via-primary-hover to-cyan-600 flex items-center justify-center p-6 pt-24">
       <div class="bg-white rounded-2xl shadow-2xl p-12 max-w-md w-full">
         <h1 class="text-4xl font-bold text-primary mb-3 text-center">RetireWell</h1>
         <p class="text-slate-600 text-center mb-10">Personalized activity recommendations for an active retirement</p>
@@ -70,6 +73,7 @@ const Login: Component = () => {
             </button>
           </div>
         )}
+      </div>
       </div>
     </div>
   );
