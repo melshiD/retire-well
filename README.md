@@ -20,10 +20,11 @@ All Raindrop Smart Components are deployed and running, but services currently r
 
 ## Deployed Application
 
-**Live URL:** https://svc-01k8r81ngamv5ny0gerqayh5dh.01k8eade5c6qxmxhttgr2hn2nz.lmapp.run/
+**🌐 Frontend:** https://retire-well.vercel.app/ (Vercel)
+**🔧 Backend API:** https://svc-01k8r81ngamv5ny0gerqayh5dh.01k8eade5c6qxmxhttgr2hn2nz.lmapp.run/
 
 **Deployed Modules (10):**
-- `web-app` - Public web service
+- `web-app` - Backend API service (Raindrop/Cloudflare Workers)
 - `conversational-ai` - Private AI chat service
 - `activity-matcher` - Private matching algorithm service
 - `user-db` - SmartSQL user database
